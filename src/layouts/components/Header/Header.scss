@@ -1,0 +1,33 @@
+.header {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+    &__inner {
+        padding: 6px 0;
+        .button-option {
+            &__upload {
+                border: 1px solid #1618231f;
+                padding: 6px 15px;
+                background-color: white;
+            }
+            &__login {
+                border: 1px solid transparent;
+                background-color: #fe2c55;
+                padding: 6px 15px;
+            }
+            &__dropdown {
+                border: none;
+                background-color: transparent;
+            }
+        }
+        // Logged
+        .authed {
+            .user-avatar {
+                width: 32px;
+                height: 32px;
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
